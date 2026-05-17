@@ -196,11 +196,11 @@ endmodule
    ```
 2. Read Liberty library:
    ```shell
-   read_liberty -lib /address/to/your/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
+   read_liberty -lib lib/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
    ```
 3. Read Verilog code:
    ```shell
-   read_verilog /path/to/dff_asyncres.v
+   read_verilog lib/dff_asyncres.v
    ```
 4. Synthesize:
    ```shell
@@ -208,11 +208,11 @@ endmodule
    ```
 5. Map flip-flops:
    ```shell
-   dfflibmap -liberty /address/to/your/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
+   dfflibmap -liberty lib/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
    ```
 6. Technology mapping:
    ```shell
-   abc -liberty /address/to/your/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
+   abc -liberty lib/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
    ```
 7. Visualize the gate-level netlist:
    ```shell
