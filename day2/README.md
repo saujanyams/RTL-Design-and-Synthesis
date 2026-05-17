@@ -79,7 +79,9 @@ To open the sky130_fd_sc_hd__tt_025C_1v80.lib file:
 - Reporting can require additional configuration.
 
 **Example:**
-![Screenshot_2025-05-29_19-04-48](https://github.com/user-attachments/assets/91f0244a-2c41-42ea-be6f-468880c3af33)
+<div align="center">
+  <img src="https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/769793fc313b5bed52590e0ce92f3e80078a89f3/day2/multiple_modules_netlist.jpeg">
+</div>
 
 
 ---
@@ -100,7 +102,9 @@ To open the sky130_fd_sc_hd__tt_025C_1v80.lib file:
 
 **Example:**
 
-"https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/ea9e272e6f9fd95670646d4c78185809cd4ee79b/day2/multiple_modules_netlist.jpeg"
+<div align="center">
+  <img src="https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/769793fc313b5bed52590e0ce92f3e80078a89f3/day2/flattened.jpeg">
+</div>
 
 > **Important:** Hierarchical synthesis maintains sub-modules in the design, while flattening produces a netlist from the ground up.
 
@@ -183,7 +187,7 @@ endmodule
    ```
    
 <div align="center">
-  <img src="https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/ed99e15db1bc858e3a25eb1081c76a51ba4ff825/day2/dff_asyncres_waveform.jpeg" alt="Design & Testbench Overview" width="70%">
+  <img src="https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/ed99e15db1bc858e3a25eb1081c76a51ba4ff825/day2/dff_asyncres_waveform.jpeg">
 </div>
 
 
@@ -219,7 +223,7 @@ endmodule
    show
    ```
    <div align="center">
-  <img src="https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/8648100b16c59a8b74fb37e3c790cdbf2d3ee884/day2/dff_asyncres.jpeg" alt="Design & Testbench Overview" width="70%">
+  <img src="https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/8648100b16c59a8b74fb37e3c790cdbf2d3ee884/day2/dff_asyncres.jpeg">
 </div>
 
 
