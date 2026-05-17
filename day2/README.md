@@ -207,7 +207,7 @@ endmodule
    ```
 2. Read Liberty library:
    ```shell
-   read_liberty -lib lib/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
+   read_liberty -lib ..lib/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
    ```
 3. Read Verilog code:
    ```shell
@@ -223,7 +223,7 @@ endmodule
    ```
 6. Technology mapping:
    ```shell
-   abc -liberty lib/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
+   abc -liberty ..lib/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
    ```
 7. Visualize the gate-level netlist:
    ```shell
@@ -239,7 +239,7 @@ endmodule
    ```
 2. Read Liberty library:
    ```shell
-   read_liberty -lib lib/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
+   read_liberty -lib ..lib/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
    ```
 3. Read Verilog code:
    ```shell
@@ -255,7 +255,7 @@ endmodule
    ```
 6. Technology mapping:
    ```shell
-   abc -liberty lib/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
+   abc -liberty ..lib/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
    ```
 7. Visualize the gate-level netlist:
    ```shell
@@ -271,7 +271,7 @@ endmodule
    ```
 2. Read Liberty library:
    ```shell
-   read_liberty -lib lib/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
+   read_liberty -lib ..lib/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
    ```
 3. Read Verilog code:
    ```shell
@@ -287,7 +287,7 @@ endmodule
    ```
 6. Technology mapping:
    ```shell
-   abc -liberty lib/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
+   abc -liberty ..lib/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
    ```
 7. Visualize the gate-level netlist:
    ```shell
