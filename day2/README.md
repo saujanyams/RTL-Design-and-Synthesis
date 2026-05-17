@@ -3,10 +3,6 @@
 
 # Day 2: Timing Libraries, Synthesis Approaches, and Efficient Flip-Flop Coding
 
-Welcome to Day 2 of the RTL Workshop. This day covers three crucial topics:
-- Understanding the `.lib` timing library (sky130_fd_sc_hd__tt_025C_1v80.lib) used in open-source PDKs.
-- Comparing hierarchical vs. flat synthesis methods.
-- Exploring efficient coding styles for flip-flops in RTL design.
 
 ---
 
@@ -185,7 +181,11 @@ endmodule
    ```shell
    gtkwave tb_dff_asyncres.vcd
    ```
-"https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/ed99e15db1bc858e3a25eb1081c76a51ba4ff825/day2/dff_asyncres_waveform.jpeg"
+   
+<div align="center">
+  <img src="https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/ed99e15db1bc858e3a25eb1081c76a51ba4ff825/day2/dff_asyncres_waveform.jpeg" alt="Design & Testbench Overview" width="70%">
+</div>
+
 
 
 ### Synthesis with Yosys
@@ -218,7 +218,9 @@ endmodule
    ```shell
    show
    ```
-![Screenshot_2025-05-30_11-03-00](https://github.com/user-attachments/assets/fa8337df-e0ec-4b01-9b18-5910768e4421)
+   <div align="center">
+  <img src="https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/8648100b16c59a8b74fb37e3c790cdbf2d3ee884/day2/dff_asyncres.jpeg" alt="Design & Testbench Overview" width="70%">
+</div>
 
 
 ---
