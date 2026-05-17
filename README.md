@@ -32,7 +32,7 @@ The **design** is your Verilog code describing the intended logic functionality.
 A **testbench** is a simulation environment that applies various inputs to your design and checks if the outputs are correct.
 
 <div align="center">
-  <img src="https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/b623235cf4a84090a6404d6f120433a7be9a5c1f/good_mux_wave.jpeg" alt="Design & Testbench Overview" width="70%">
+  <img src="https://github.com/user-attachments/assets/93927b96-df80-4da5-b801-284fc2cc6757" alt="Design & Testbench Overview" width="70%">
 </div>
 
 ---
@@ -89,7 +89,7 @@ gtkwave tb_good_mux.vcd
 ```
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/701e8189-3101-4a82-8134-e799521b9a8b" alt="GTKWave Example" width="70%">
+  <img src="https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/4f80095d373c89e2f27bca2a14512ada897af7f9/good_mux_wave.jpeg" alt="GTKWave Example" width="70%">
 </div>
 
 ---
