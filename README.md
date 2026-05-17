@@ -182,7 +182,7 @@ Let’s synthesize the `good_mux` design using Yosys!
     ```
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/4b3a9939-92d0-4efc-ad69-e96faf19e6c3" alt="Yosys Gate-level Schematic" width="70%">
+  <img src="https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/4f80095d373c89e2f27bca2a14512ada897af7f9/good_mux_netlist.jpeg" alt="Yosys Gate-level Schematic" width="70%">
 </div>
 
 ---
