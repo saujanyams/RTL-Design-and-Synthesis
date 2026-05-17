@@ -175,7 +175,8 @@ endmodule
 
 1. **Compile:**
    ```shell
-   iverilog dff_asyncres.v tb_dff_asyncres.v
+   iverilog dff_asyncres.v tb_dff_asyncres.v dff_async_set.v tb_dff_async_set.v dff_syncres.v
+   tb_dff_syncres.v
    ```
 2. **Run:**
    ```shell
@@ -183,16 +184,22 @@ endmodule
    ```
 3. **View Waveform:**
    ```shell
-   gtkwave tb_dff_asyncres.vcd
+   gtkwave tb_dff_asyncres.vcd tb_dff_async_set.vcd tb_dff_syncres.vcd
    ```
    
 <div align="center">
   <img src="https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/ed99e15db1bc858e3a25eb1081c76a51ba4ff825/day2/dff_asyncres_waveform.jpeg">
 </div>
+<div align="center">
+  <img src="https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/69be2afce774e01021af2ddfc5675e10751d8bf7/day2/dff_async_set_waveform.jpeg">
+</div>
+<div align="center">
+  <img src="https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/69be2afce774e01021af2ddfc5675e10751d8bf7/day2/dff_syncres_waveform.jpeg">
+</div>
 
 
 
-### Synthesis with Yosys
+### Synthesis with Yosys 
 
 1. Start Yosys:
    ```shell
@@ -224,6 +231,70 @@ endmodule
    ```
    <div align="center">
   <img src="https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/8648100b16c59a8b74fb37e3c790cdbf2d3ee884/day2/dff_asyncres.jpeg">
+</div> 
+
+1. Start Yosys:
+   ```shell
+   yosys
+   ```
+2. Read Liberty library:
+   ```shell
+   read_liberty -lib lib/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
+   ```
+3. Read Verilog code:
+   ```shell
+   read_verilog lib/dff_async_set.v
+   ```
+4. Synthesize:
+   ```shell
+   synth -top dff_async_set
+   ```
+5. Map flip-flops:
+   ```shell
+   dfflibmap -liberty lib/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
+   ```
+6. Technology mapping:
+   ```shell
+   abc -liberty lib/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
+   ```
+7. Visualize the gate-level netlist:
+   ```shell
+   show
+   ```
+   <div align="center">
+  <img src="https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/69be2afce774e01021af2ddfc5675e10751d8bf7/day2/dff_async_set.jpeg">
+</div>
+
+1. Start Yosys:
+   ```shell
+   yosys
+   ```
+2. Read Liberty library:
+   ```shell
+   read_liberty -lib lib/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
+   ```
+3. Read Verilog code:
+   ```shell
+   read_verilog lib/dff_syncres.v
+   ```
+4. Synthesize:
+   ```shell
+   synth -top dff_syncres
+   ```
+5. Map flip-flops:
+   ```shell
+   dfflibmap -liberty lib/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
+   ```
+6. Technology mapping:
+   ```shell
+   abc -liberty lib/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
+   ```
+7. Visualize the gate-level netlist:
+   ```shell
+   show
+   ```
+   <div align="center">
+  <img src="https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/69be2afce774e01021af2ddfc5675e10751d8bf7/day2/dff_syncres.jpeg">
 </div>
 
 
