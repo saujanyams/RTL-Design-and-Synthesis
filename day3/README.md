@@ -210,13 +210,25 @@ endmodule
 ---
 ### Lab 7
 
-Verilog code:
-
-![Lab 7 Output](https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/09bbdfa2c9d051e6b63eaf4ddd7f03086e0e558b/day3/verilog3.jpeg)
+```verilog
+module dff_const3(input clk, input reset, output reg q);
+reg q1;
+always @(posedge clk, posedge reset)
+begin
+	if(reset)
+		q <= 1'b1;
+        q1 <= 1'b0;
+	else
+		q1 <= 1'b1;
+        q <=  q1;
+end
+endmodule
+```
 
 **Functionality:**
-- D flip-flop always sets output `q` to `1` (regardless of reset or clock).
-
+-Cascaded D flip-flops (2-stage pipeline) with:
+-Asynchronous reset setting output q to 1 (and internal register q1 to 0)
+-Loads 0 on the first clock cycle after reset, then holds a constant 1 permanently
 ![Lab 7 Output](https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/09bbdfa2c9d051e6b63eaf4ddd7f03086e0e558b/day3/dff_const3.jpeg) 
 
 ![Lab 7 Output](https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/09bbdfa2c9d051e6b63eaf4ddd7f03086e0e558b/day3/const3_waveform.jpeg)
