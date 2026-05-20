@@ -234,6 +234,28 @@ endmodule
 ![Lab 7 Output](https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/09bbdfa2c9d051e6b63eaf4ddd7f03086e0e558b/day3/const3_waveform.jpeg)
 
 ---
+### Lab 8
+
+```verilog
+module dff_const4(input clk, input reset, output reg q);
+reg q1;
+always @(posedge clk, posedge reset)
+begin
+	if(reset)
+		q <= 1'b1;
+        q1 <= 1'b1;
+	else
+		q1 <= 1'b1;
+        q <=  q1;
+end
+endmodule
+```
+
+**Functionality:**
+- Loads and holds a constant 1 permanently across all clock cycles
+![Lab 8 Output](https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/09bbdfa2c9d051e6b63eaf4ddd7f03086e0e558b/day3/dff_const4.jpeg) 
+
+---
 
 ## Summary
 - **Focus:** Optimization techniques for combinational and sequential circuits in digital design, with practical Verilog labs.
