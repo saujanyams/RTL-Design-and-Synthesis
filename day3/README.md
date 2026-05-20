@@ -131,7 +131,7 @@ endmodule
 **Functionality:**  
 2-to-1 multiplexer; `y = a ? 1 : b` (outputs `1` when `a` is true, otherwise `b`).
 
-![Lab 3 Output](https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/09bbdfa2c9d051e6b63eaf4ddd7f03086e0e558b/day3/opt_check2.jpeg)
+![Lab 3 Output](https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/b541875aef188fc8275773fab404ed12a66cac10/day3/opt_check3.jpeg)
 
 ---
 
@@ -153,7 +153,7 @@ module opt_check4 (input a , input b , input c , output y);
 - Logic simplifies to:  
   `y = a ? c : !c`
 
-![Lab 4 Output](https://github.com/user-attachments/assets/08d1e447-78c6-47c4-8c99-239645b38617)
+![Lab 4 Output](https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/b541875aef188fc8275773fab404ed12a66cac10/day3/opt_check4.jpeg)
 
 ---
 
@@ -203,7 +203,7 @@ endmodule
 - D flip-flop always sets output `q` to `1` (regardless of reset or clock).
 
 ![Lab 6 Output](https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/09bbdfa2c9d051e6b63eaf4ddd7f03086e0e558b/day3/dff_const2.jpeg) 
-![Lab 5 Output](https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/09bbdfa2c9d051e6b63eaf4ddd7f03086e0e558b/day3/dff_const2_waveform.jpeg)
+![Lab 6 Output](https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/09bbdfa2c9d051e6b63eaf4ddd7f03086e0e558b/day3/dff_const2_waveform.jpeg)
 
 ---
 
