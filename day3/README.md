@@ -114,7 +114,7 @@ endmodule
   - `y = 1` if `a` is true.
   - `y = b` if `a` is false.
 
-![Lab 2 Output](https://github.com/user-attachments/assets/59545745-8a8b-4afd-b4d5-0a3ad1d5b80e)
+![Lab 2 Output](https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/09bbdfa2c9d051e6b63eaf4ddd7f03086e0e558b/day3/opt_check2.jpeg)
 
 ---
 
