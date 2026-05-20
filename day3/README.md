@@ -95,7 +95,7 @@ Follow the steps from [Day 1 Synthesis Lab](https://github.com/Ahtesham18112011/
 opt_clean -purge
 ```
 
-![Lab 1 Output](https://github.com/user-attachments/assets/4d224d8d-f6f5-4a37-9732-ab570b64e31e)
+![Lab 1 Output](https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/09bbdfa2c9d051e6b63eaf4ddd7f03086e0e558b/day3/opt_check.jpeg)
 
 ---
 
@@ -131,7 +131,7 @@ endmodule
 **Functionality:**  
 2-to-1 multiplexer; `y = a ? 1 : b` (outputs `1` when `a` is true, otherwise `b`).
 
-![Lab 3 Output](https://github.com/user-attachments/assets/157b16d3-cecd-441a-aacf-bae296910886)
+![Lab 3 Output](https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/09bbdfa2c9d051e6b63eaf4ddd7f03086e0e558b/day3/opt_check2.jpeg)
 
 ---
 
@@ -178,7 +178,7 @@ endmodule
   - Asynchronous reset to 0
   - Loads constant `1` when not in reset
 
-![Lab 5 Output](https://github.com/user-attachments/assets/a42fac06-a092-4efc-be39-33b263caaaa1)
+![Lab 5 Output](https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/09bbdfa2c9d051e6b63eaf4ddd7f03086e0e558b/day3/dff_const1.jpeg  https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/09bbdfa2c9d051e6b63eaf4ddd7f03086e0e558b/day3/dff_const1_waveform.jpeg)
 
 ---
 
@@ -201,7 +201,7 @@ endmodule
 **Functionality:**
 - D flip-flop always sets output `q` to `1` (regardless of reset or clock).
 
-![Lab 6 Output](https://github.com/user-attachments/assets/ae45f7db-0a7f-4256-b43b-01cc4a1588f7)
+![Lab 6 Output](https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/09bbdfa2c9d051e6b63eaf4ddd7f03086e0e558b/day3/dff_const2.jpeg  https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/09bbdfa2c9d051e6b63eaf4ddd7f03086e0e558b/day3/dff_const2_waveform.jpeg)
 
 ---
 
@@ -214,4 +214,4 @@ endmodule
   3. **Cloning:** Duplicating logic cells/modules to improve timing and balance load.
   4. **Retiming:** Repositioning registers in a circuit to enhance performance without altering its function.
 
-- **Labs:** Six practical Verilog labs illustrate these concepts, including examples of combinational logic optimizations and D flip-flop behaviors, each with code snippets and output images.
+
