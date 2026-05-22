@@ -1,4 +1,4 @@
-# Day 5 — If/Case Hazards, For Loops, and Generate Blocks
+# Day 5: If/Case Hazards, For Loops, and Generate Blocks
 
 ## Theory Topics Covered
 
