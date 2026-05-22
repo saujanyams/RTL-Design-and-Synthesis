@@ -47,7 +47,7 @@ The workshop is organized by day, each with a dedicated folder and README:
 
 
 
-## Acknowledgements 👑
+## Acknowledgements 
 
 *  Kunal Ghosh and the VSD team for designing and providing this workshop
 *  Open-source tools providers like Yosys and Sky130 PDK.
