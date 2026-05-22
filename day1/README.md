@@ -161,7 +161,7 @@ Let’s synthesize the `good_mux` design using Yosys!
 
 3. **Read the Verilog code**
     ```shell
-    read_verilog /home/saujanya/VLSI/sky130RTLDesignAndSynthesisWorkshop/verilog_files/good_mux.v
+    read_verilog good_mux.v
     ```
 
 4. **Synthesize the design**
