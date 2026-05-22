@@ -142,7 +142,7 @@ endmodule
 
 This code behaves like a multiplexer. There is no error in this code. The `default` statement makes the case statement complete, so no latch is inferred. Viewing the waveform:
 
-![Waveform of comp_case — correct MUX behaviour](https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/24cc621108c841b39ba52f4b354f09129b197f25/day5/comp_case_waveofrm.jpeg)
+![Waveform of comp_case — correct MUX behaviour](https://github.com/saujanyams/RTL-Design-and-Synthesis/blob/24cc621108c841b39ba52f4b354f09129b197f25/day5/comp_case_waveform.jpeg)
 
 From the waveform, it can be seen that the code behaves like a multiplexer, as expected. There is no inferred latching. Thus, there are no issues in the code.
 
